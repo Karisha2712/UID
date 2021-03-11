@@ -1,0 +1,512 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    width: 1600px;
+}
+
+/*Page1*/
+.page1{
+    height: 748px;
+}
+.background-picture{
+    width: 1600px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -100;
+}
+
+/* Header */
+
+.header{
+    position: relative;
+    width: 1600px;
+    height: 95px;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.menu-items{
+    position: absolute;
+    top: 38px;
+    display: flex;
+    align-items: center;
+    left: 502px;
+}
+.logo{
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    left: 276px;
+}
+.menu-item{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 140%;
+    color: #fff;
+    opacity: .8;
+    height: 20px;
+    text-align: center;
+}
+.menu-item:hover{
+    opacity: 1;
+    border-bottom: #fff solid 1px;
+}
+.active-item{
+    opacity: 1;
+    width: 38px;
+    margin-right: 85px;
+    border-bottom: #fff solid 1px;
+}
+.Syllabus{
+    width: 53px;
+    margin-right: 244px;
+}
+.Project{
+    width: 52px;
+    margin-right: 85px;
+}
+.FAQ{
+    width: 26px;
+}
+
+/*Content*/
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page1-title{
+    font-weight: 700;
+    font-size: 64px;
+    color: #fff;
+    letter-spacing: 4.5px;
+    line-height: 75px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 135px;
+}
+.text{
+    width: 504px;
+    height: 50px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 25.2px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.button{
+    border: none;
+    background: #00AFDB;
+    color: #fff;
+    padding: 15px 47px;
+    font-weight: bold;
+    /*font-size: 14px;*/
+    line-height: 16.41px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    width: 188px;
+}
+
+.button:hover,
+.button:active,
+.button:focus{
+    outline: none;
+    cursor: pointer;
+    background: #009CC2;
+}
+
+/* Social networks*/
+
+.social-networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 183px;
+}
+
+.net-icon{
+    margin-left: 30px;
+}
+.net-icon:hover{
+    cursor: pointer;
+}
+.net-icon-1{
+    margin-left: 0;
+}
+
+/*Page2*/
+
+.page2{
+    height: 842px;
+    width: 1600px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.content2{
+    margin-top: 292px;
+    margin-left: 270px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: left;
+}
+.page2-title{
+    width: 367px;
+    height: 57px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #373737;
+}
+
+.text2{
+    width: 407px;
+    height: 80px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4E4E4E;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.page2-picture{
+    width: 407px;
+    height: 582px;
+    margin-left: 248px;
+    margin-top: 120px;
+}
+
+/*Page3*/
+
+.page3{
+    height: 504px;
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    background: #F5F6F7;
+}
+
+.flipping-arrows{
+    margin-top: 78px;
+    margin-left: 1249px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    font-size: 18px;
+    line-height: 18px;
+}
+.arrow_back{
+    margin-right: 15.34px;
+}
+.arrow_back:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+
+.slash{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.arrow-forward{
+    margin-left: 15.34px;
+}
+.arrow-forward:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+
+.content3{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.text-content3{
+    margin-top: 57px;
+    margin-left: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page3-woman{
+    height: 45px;
+    width: 45px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.page3-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.text3{
+    width: 298px;
+    height: 80px;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #4E4E4E;
+    margin: 0;
+}
+
+.pictures{
+    display: flex;
+    flex-direction: row;
+    width: 407px;
+    height: 244px;
+    margin-left: 139px;
+    margin-top: 22px;
+}
+.page3-picture{
+    margin-right: 30px;
+}
+
+/*Page4*/
+
+.page4{
+    width: 1600px;
+    height: 842px;
+    display: flex;
+    flex-direction: row;
+}
+
+.page4-picture{
+    margin-left: 269px;
+    margin-top: 116px;
+}
+
+.content4{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 140px;
+    margin-top: 316px;
+}
+
+.page4-title{
+    height: 28px;
+    width: 298px;
+}
+
+.text4{
+    height: 60px;
+}
+
+/*Page5*/
+
+.page5{
+    width: 1600px;
+    height: 524px;
+}
+
+.page5-picture{
+    width: 1600px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -100;
+}
+
+.content5{
+    position: absolute;
+    margin-top: 196px;
+    margin-left: 597px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.page5-title{
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 13px;
+    width: 380px;
+    height: 28px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    width: 406px;
+    height: 46px;
+}
+
+.email{
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 340px;
+    height: 46px;
+    color: #373737;
+    font-size: 14px;
+    line-height: 140%;
+    padding-left: 24px;
+}
+
+.email:focus{
+    outline: none;
+    cursor: text;
+}
+
+.tick-button{
+    border: none;
+    padding: 16px 25px;
+    background: #00AFDB;
+}
+.tick-button:hover,
+.tick-button:active,
+.tick-button:focus{
+    outline: none;
+    cursor: pointer;
+    background: #009CC2;
+}
+
+/*Page6*/
+
+.page6{
+    width: 1600px;
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page6-title{
+    margin-top: 117px;
+    margin-bottom: 20px;
+    height: 28px;
+    width: 250px;
+
+}
+
+.text6{
+    margin-top: 0;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 480px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.os-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.os-button1{
+    margin-right: 30px;
+}
+.text-button{
+    width: 127px;
+    padding: 0;
+    background: #00AFDB;
+    height: 46px;
+    border: none;
+    font-weight: bold;
+   /* font-size: 14px;*/
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.text-button:hover,
+.text-button:active,
+.text-button:focus{
+    outline: none;
+    cursor: pointer;
+    background: #009CC2;
+}
+.logo-button{
+    border: none;
+    width: 59px;
+    height: 46px;
+    padding: 0;
+    background: #009CC2;
+    align-items: center;
+}
+.logo-button:hover,
+.logo-button:active,
+.logo-button:focus{
+    outline: none;
+}
+
+/*Footer*/
+
+.footer{
+    position: relative;
+    bottom: 0;
+    background: #000;
+    width: 1600px;
+    height: 185px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-logo{
+    margin-top: 57px;
+    width: 44px;
+    height: 45px;
+    margin-right: 448px;
+}
+
+.footer-items{
+    margin-top: 70px;
+    margin-left: 160px;
+    margin-right: 382px;
+    height: 20px;
+}
+.footer-item{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.footer-item:hover{
+    opacity: .5;
+}
+.not1::before{
+    content: "|";
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.author{
+    margin-top: 73px;
+    text-align: center;
+    color: #818181;
+    width: 170px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 140%;
+}
